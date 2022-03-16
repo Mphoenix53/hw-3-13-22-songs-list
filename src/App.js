@@ -5,11 +5,11 @@ import Counterc from './class/CounterC';
 
 function App() {
   return (
-    <div className="App, border">
+    <div className="App">
 
       <div className="border">
         <h1>Functional</h1>
-         <Counterf />
+         <Counterf header='Functional'/>
       </div>
 
       <div className="border">

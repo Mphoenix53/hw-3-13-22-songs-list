@@ -2,11 +2,16 @@
 import { useState } from "react"
 
 const Counterf = (props)=>{
+
   const[count, setCount] = useState(0)
-    console.log('prier to functional counter return')
+
+    const add = ()=>{
+      setCount(count + 1)
+    }
+
     return (
     <div className="border">
-      <h1>Counter</h1>
+      <h1>Counter: {props.header}</h1>
       <p>count: {count}</p>
       <button onClick={()=> setCount(count + 1)}>ADD</button>
     </div>
