@@ -1,7 +1,11 @@
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const Counterf = (props)=>{
+
+  useEffect(()=>{
+
+  },[])
 
   const[count, setCount] = useState(0)
 

@@ -18,7 +18,7 @@ class Counterc extends React.Component{
     console.log('called counter render method')
     return (
       <div className="border">
-        <h1>Counter</h1>
+        <h1>Counter {this.props.header}</h1>
         <p>count {this.state.count}</p>
         <button onClick={this.add}>ADD</button>
       </div>
