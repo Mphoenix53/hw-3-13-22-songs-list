@@ -1,3 +1,21 @@
+.border{
+  margin: 15px;
+  padding: 10px;
+  border: 15px solid blue;
+}
+
+.border .border{
+  margin: 15px;
+  padding: 10px;
+  border: 15px solid rgb(0, 0, 0);
+}
+
+.border .border .border{
+  margin: 15px;
+  padding: 10px;
+  border: 15px solid rgb(248, 3, 3);
+}
+
 .App {
   text-align: center;
 }
