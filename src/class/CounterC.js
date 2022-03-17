@@ -15,7 +15,6 @@ class Counterc extends React.Component{
   }
 
   render(){
-    console.log('called counter render method')
     return (
       <div className="border">
         <h1>Counter {this.props.header}</h1>
